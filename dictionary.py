@@ -22,6 +22,7 @@ while inp!=0:
       for key, value in y.items():
         if value == cari:
           print("user",cari,"telah ditemukan")
+          print(y)
           break
         else:
           print("user",cari,"tidak ada")
