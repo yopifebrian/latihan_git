@@ -25,10 +25,11 @@ while inp!=0:
           print(y)
           break
         else:
-          print("user",cari,"tidak ada")
           hasil = 0
-        if hasil == 0:
+      if hasil == 0:
+          print("user",cari,"tidak ada")
           break
+          
 
 user_dict= {"nama": nama, "nik": nik, "jenis_kelamin":jenis_kelamin, "tanggal_lahir":tanggal_lahir}
 user.append(user_dict)
