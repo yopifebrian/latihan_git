@@ -24,6 +24,7 @@ while inp!=0:
           print("user",cari,"telah ditemukan")
           break
         else:
+          print("user",cari,"tidak ada")
           hasil = 0
         if hasil == 0:
           break
